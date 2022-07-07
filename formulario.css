@@ -4,15 +4,14 @@
 }
 
 #titulo {
-    font-family: sans-serif;
-    color: #380B61;
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 7%;
 }
 
 #subtitulo {
-    font-family: sans-serif;
-    color: #380B61;
-    margin-left: 10%;
+    font-family:system-ui;
+    color: purple;
+    margin-left: 11%;
 }
 
 #check {
@@ -24,8 +23,8 @@ fieldset {
 }
 
 body {
-    background-color: #F0F8FF;
-    font-family: sans-serif;
+    background-color:#CCBBFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
     color: #59429d;
     margin-left: 36%;
@@ -59,7 +58,7 @@ button {
 .campo label {
     margin-bottom: 0.2em;
     color: #59429d;
-    display: block;
+    display: inline-block;
 }
 
 fieldset.grupo .campo {
@@ -84,7 +83,7 @@ fieldset.grupo .campo {
 .campo input:focus,
 .campo select:focus,
 .campo textarea:focus {
-    background: #E0E0F8;
+    background: white;
 }
 
 .botao {
@@ -92,7 +91,7 @@ fieldset.grupo .campo {
     background: #59429d;
     border: 0;
     margin-bottom: 1em;
-    color: #ffffff;
+    color: lavenderblush;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
